@@ -10,7 +10,6 @@ public class Node<T extends Comparable<? super T>> {
     private Node<T> rightChild;
 
 
-
     public Node(T value) {
         this.value = value;
     }
